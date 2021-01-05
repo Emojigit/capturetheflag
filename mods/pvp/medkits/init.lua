@@ -59,7 +59,7 @@ local function reason_handler(reason)
 	elseif reason == "die" then
 		return " because you died!"
 	else
-		return "!"
+		return "!" 
 	end
 end
 
