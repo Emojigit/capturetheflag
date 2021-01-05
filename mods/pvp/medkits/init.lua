@@ -56,8 +56,8 @@ local function reason_handler(reason)
 		return " because someone damaged you!"
 	elseif reason == "move" then
 		return " because you moved!"
-	elseif reason == "die" then
-		return " because you died!"
+	elseif reason == "attack" then
+		return " because you attacked other player!"
 	else
 		return "!" 
 	end
