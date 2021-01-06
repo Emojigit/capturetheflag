@@ -59,7 +59,7 @@ local function reason_handler(reason)
 	elseif reason == "attack" then
 		return " because you attacked other player!"
 	else
-		return "!" 
+		return "!"
 	end
 end
 
